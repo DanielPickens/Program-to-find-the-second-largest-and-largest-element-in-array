@@ -5,7 +5,7 @@ n =len(list1)
 for i in range(2,n):
     if list1[i]>mx:
         secondmax=mx  ## this locates or points to the second highest value element
-        mx=list1[i] #points ot largest element in arr
+        mx=list1[i] #points to largest element in arr
     elif list1[i]>secondmax and \
         mx != list1[i]:
         secondmax=list1[i]
